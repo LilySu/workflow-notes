@@ -7,3 +7,4 @@ aws s3 ls s3://<bucket name> --recursive --human-readable --summarize
 ```
 aws s3 cp s3://<bucket name> ./ --recursive --exclude <file>.csv
 ```
+
