@@ -57,5 +57,5 @@ final message
 - Also to eliminate data loss, set the producer to wait for replication to complete before proceeding even if this slows down compute time
 - Kafka's load balancing involves balancing compute over parititons.
 - Compaction of topics allows topics to be smaller, meaning easier to move from machine to machine. One can always save non-compacted topic as another topic and have a third that mix-matches.
-
+- Event streaming can be thought of as a decoratively-defined cache, where for a website that continuously scrolls, data is constantly pushed through an API.
 
